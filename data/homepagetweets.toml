@@ -1,0 +1,34 @@
+[[tweet]]
+name = "Heinrich Hartmann"
+twitter_handle = "@heinrichhartman"
+quote = "Working with @GoHugoIO is such a joy. Having worked with #Jekyll in the past, the near instant preview is a big win! Did not expect this to make such a huge difference."
+link = "https://twitter.com/heinrichhartman/status/1199736512264462341"
+date = 2019-11-12T00:00:00Z
+
+[[tweet]]
+name = "Joshua Steven"
+twitter_handle = "@jscarto"
+quote = "Can't overstate how much I enjoy <a href='https://twitter.com/gohugoio' target='_blank'>@GoHugoIO</a>. My site is relatively small, but *18 ms* to build the whole thing made template development and proofing a breeze."
+link = "https://twitter.com/jscarto/status/1039648827815485440"
+date = 2018-09-12T00:00:00Z
+
+[[tweet]]
+name = "Christophe Diericx"
+twitter_handle = "@spcrngr_"
+quote = "The more I use <a href='https://gohugo.io' target='_blank'>gohugo.io</a>, the more I really like it. Super intuitive/powerful static site generator...great job <a href='https://twitter.com/gohugoio' target='_blank'>@GoHugoIO</a>"
+link = "https://twitter.com/spcrngr_/status/870863020905435136"
+date = 2017-06-03T00:00:00Z
+
+[[tweet]]
+name = "marcoscan"
+twitter_handle = "@marcoscan"
+quote = "Blog migrated from <a href='https://twitter.com/WordPress' target='_blank'>@WordPress</a> to <a href='https://twitter.com/GoHugoIO' target='_blank'>@GoHugoIO</a>, with a little refresh of my theme, Vim shortcuts and a full featured deploy script <a href='https://twitter.com/hashtag/gohugo?src=hash' target='_blank'>#gohugo</a>"
+link = "https://twitter.com/marcoscan/status/869661175960752129"
+date = 2017-05-30T00:00:00Z
+
+[[tweet]]
+name = "Sandra Kuipers"
+twitter_handle = "@SKuipersDesign"
+quote = "Who knew static site building could be fun 🤔 Learning <a href='https://twitter.com/hashtag/gohugo?src=hash'>#gohugo</a> today"
+link = "https://twitter.com/SKuipersDesign/status/868796256902029312"
+date = 2017-05-28T00:00:00Z

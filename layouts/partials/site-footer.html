@@ -1,0 +1,63 @@
+<footer class="bg-white ph4-ns pt4 relative w-100" role="contentinfo">
+  <div class="center flex-ns flex-wrap justify-between mw9 w-90">
+    <div class="pb3 pt4 w-100 w-50-ns">
+      <div class="b f3  light-gray nested-links">
+        <img src="/img/committable-logo-text.png" alt="" class="h2 v-mid mr0 ml-auto mb4 mt-auto">
+        <div class="b f5 black nested-links">The decentralized open-source protocol for Web3 ecosystem.</div>
+      </div>
+
+      <ul class="center f6 list ma0 mv3 pa0 tc">
+        <!-- {{- with .Site.Params.github_repo -}}<li class="dib mr3"><a href="{{ . }}" class="github-button dim link light-gray pv2">File an Issue</a></li>{{- end -}} -->
+        <!-- {{- with .Site.Params.forum -}}<li class="dib mr3"><a href="{{ . }}" class="dim link light-gray pv2">Get Help</a></li>{{- end -}}
+            {{- with .Site.Params.gitter -}}<li class="dib"><a href="{{ . }}" class="dim link light-gray pv2">Discuss Source Code</a></li>{{- end -}} -->
+      </ul>
+
+      <ul class="f6 list ma0 mv4 pa0">
+        <li class="dib mr3 ml0 mr-auto">
+          <!-- TODO: Add follow intents where available TODO: Revisit color and hover color -->
+          {{ with .Site.Social.twitter }}
+          <a href="https://twitter.com/intent/follow?screen_name={{ . }}" title="Follow on Twitter"
+            class="link-transition twitter link dib z-999 pt3 pt0-l mr2">
+            {{ partial "svg/twitter.svg" (dict "size" "32px") }}
+          </a>
+          {{ end }}
+          <!-- <a href="https://github.com/Committable" title="Follow on GitHub"
+            class="dib z-999 pt3 pt0-l mr2">
+            {{ partial "svg/github-corner.svg" (dict "size" "32px") }}
+          </a> -->
+        </li>
+      </ul>
+      <hr class="solid w-90 ">
+
+      <p class="dib mr4 b">Committable {{ now.Year }}</p>
+
+      <!-- {{ with  getenv "REPOSITORY_URL" -}}
+          <p class="center f6 tc w-70"><a href="https://www.netlify.com"><img src="/images/netlify-dark.svg" alt="Netlify badge"></a></p>
+          {{- end }} -->
+
+    </div>
+
+    <div class="w-100 w-50-l"> 
+      {{ partial "home-page-sections/sponsors.html" (dict "cx" . "gtag" "footer" "classes_section" "pb3 w-100"
+      "classes_copy" "f7 w-90-ns") }}
+    </div>
+
+  </div>
+
+  <!-- <div class="f7 gray mb5 mb0-ns ph3 w-100"> 
+      <p class="dib mr4">The Hugo logos are copyright © Steve Francia 2013–{{ now.Year }}.</p>
+      <p class="dib">The Hugo Gopher is based on an original work by Renée French.</p>
+    </div> -->
+
+  <div class="f6 gray mb5 mb0-ns ph3 w-100"> 
+    <p class="dib mr4">This website is based on <a href="https://gohugo.io/" class="dim link green pv2">Hugo</a>.
+    </p>
+  </div>
+
+  <!-- <img src="/images/gopher-side_color.svg" alt="" class="absolute-l bottom-0 dn db-l h4 right-0 z-999"/> -->
+
+  <div class="bg-primary-color-dark bottom-0 left-0 right-0 dn-l fixed pb3 ph3 pt3 w-100 z-2">
+    {{- partial "nav-mobile.html" . -}}
+  </div>
+
+</footer>

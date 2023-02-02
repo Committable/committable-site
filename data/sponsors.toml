@@ -1,0 +1,24 @@
+[[banners]]
+    name         = "University College Oxford Blockchain Research Centre"
+    link         = "https://blockchain.univ.ox.ac.uk/"
+    img          = "/img/sponsors/oxfordchenter-300x300.png"
+    utm_campaign = "partner"
+
+[[banners]]
+    name         = "THE BLOCKHOUSE TECHNOLOGY LIMITED (TBTL)"
+    link         = "https://tbtl.com/"
+    img          = "/img/sponsors/tbtl-site-logo.svg"
+    utm_campaign = "partner"
+    bgcolor      = "#131A3E"
+
+[[banners]]
+    name         = "DCC Global"
+    link         = "https://dcc.global/"
+    img          = "/img/sponsors/dcc-logo.png"
+    query_params = "ref=532&campaign=hugo&"
+    utm_campaign = "partner"
+    bgcolor      = "#ffffff"
+
+    #hugohome
+    #hugofooter
+    #hugogithub

@@ -1,0 +1,60 @@
+<div class="w-90-l center">
+  <h1 class="ph5-l lh-title f3 f3-ns mb2 fw8 bmt1 mt0-l tc"> 
+    Mint, Trade & Sponsor Open Source contributions, with you in control
+  </h1>
+
+  {{ if .Params.features }}
+  <div class=" flex-ns flex-wrap justify-center center mw9">
+    {{ $features := .Params.features }}
+    {{ range $i, $e := $features }}
+    {{ $features_count := $e | len }}
+
+    <div
+      class="w-100{{ if and (eq $i $features_count) (ne (modBool $features_count 2) true) }} w-70-ns {{ else }} w-25-ns {{ end }}ph2-l pv5-l nested-copy-line-height">
+      <!-- NOTE:  "if eq $i $features_count" makes the last item a bit wider for balance. If we use an even number of items, we'll want to remove this -->
+      <div class="flex-l flex-wrap justify-between">
+        <div class="flex-auto tc tl-ns w-100 w-80-ns">
+          <div class="lh-title gray o-80 f4 f5-ns mb2 fw8 bmt1 mt0-l">
+            {{ with .image_path }}
+            <img src="{{ . }}" alt="icon depicting {{ $e.heading }}" class="o-80 v-mid center w-100">
+            {{ end }}
+          </div>
+
+          <h2 class="lh-title primary-color o-80 f4 f5-ns mb2 fw8 bmt1 mt0-l">
+            {{ .heading }}
+          </h2>
+          <div class="db v-mid w-100 gray measure-wide mb5 mb0-l">
+            <p class="f4 f5-ns gray mt0 mb2">{{.tagline}}</p>
+            <div class="lh-copy">
+              {{ .copy }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+
+  <h1 class="ph5-l lh-title gray f4 f4-ns mb2 fw8 bmt1 mt0-l tc"> 
+    Committable aims at creating a novel ecosystem for open-source software where all development contributions are verified and identifiable by the community
+  </h1>
+
+
+  <h1 class="ph5-l lh-title f3 f3-ns pv4 pv4-l mb2 fw8 bmt1 mt0-l tc"> 
+    Mint your COMMIT from your commit
+  </h1>
+  <div class="tc">
+    <img src="/img/features/mint.jpeg">
+  </div>
+
+  <h1 class="ph5-l lh-title f3 f3-ns pv4 pv4-l mb2 fw8 bmt1 mt0-l tc"> 
+    Earn bounties and community rewards
+  </h1>
+  <div class="tc">
+    <img src="/img/features/bounty.jpeg">
+  </div>
+
+</div>

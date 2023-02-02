@@ -1,13 +1,14 @@
 
-description = "The world’s fastest framework for building websites"
+description = "Decentralized Open-Source Protocol for Web3 Ecosystem"
+sub_description = "Building a sustainable open-source ecosystem with verifiable contribution tokens"
 ## Setting this to true will add a "noindex" to *EVERY* page on the site..
 removefromexternalsearch = false
 ## Gh repo for site footer (include trailing slash)
 ghrepo = "https://github.com/gohugoio/hugoDocs/"
 ## GH Repo for filing a new issue
-github_repo = "https://github.com/gohugoio/hugo/issues/new"
+github_repo = "https://github.com/Committable/Contracts/issues/new/"
 ### Edit content repo (set to automatically enter "edit" mode; this is good for "improve this page" links)
-ghdocsrepo = "https://github.com/gohugoio/hugoDocs/tree/master/docs"
+ghdocsrepo = "https://github.com/Committable/committable-doc"
 ## Gitter URL
 gitter = "https://gitter.im/spf13/hugo"
 ## Discuss Forum URL

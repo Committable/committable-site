@@ -106,12 +106,12 @@
   identifier = "tech"
   url = "/technology/"
 
-[[global]]
-  name = "Blogs"
-  weight = 5
-  identifier = "blogs"
-  url = "/blogs/"
-
+#[[global]]
+#  name = "Blogs"
+#  weight = 5
+#  identifier = "blogs"
+#  url = "/blogs/"
+#
 [[global]]
     name = "Events"
     weight = 10

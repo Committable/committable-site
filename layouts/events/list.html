@@ -1,19 +1,38 @@
 {{ define "main" }}
-<div class="w-100 ph4 ph5-ns pb5 pb6-ns pt1 pt3-ns ">
 
-  <article class="cf pa3 pa4-m pa4-l nested-copy-line-height nested-img">
-    <h1 class="primary-color-dark">
-      {{ .Title }}
-    </h1>
-    <div class="nested-copy-line-height">
-      {{ .Content }}
+<section class="w-100 w-70-ns ph4 ph5-ns pv4 pt6-ns bg-primary-color-white center">
+  <div class="flex-ns flex-wrap center mw9">
+    <div class="w-100 w-30-l order-1">
+      <div class="w-90-ns center">
+        <img src="/img/events/events-01.png" alt="image depicting a cubic" class="img">
+      </div>
     </div>
-  </article>
+
+    <div class="w-100 w-70-l">
+      <div class="w-100-ns">
+        <h3 class="f1 fw4 black ma0 pt4 lh-title pt0-l tc tl-ns">
+          Join Our Growing Community
+        </h3>
+
+        <p class="f3 lh-copy tc tl-ns">
+          Building an empowering, self governing open-source community, through targeted activities towards a common goal, motivating its developers and its sponsors
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="f4 lh-copy tc tl-ns ">
+    {{ .Content }}
+  </div>
+</section>
+
+<div class="w-100 w-70-ns ph3 ph4-ns pb5 pb6-ns pt1 pt3-ns center">
 
   <!-- TODO: May be a good idea in this case to add monthly archives -->
 
   <div class="flex flex-wrap">
-      <!-- {{/* [wip] add archive lists
+    <!-- {{/* [wip] add archive lists
       <div class="w-100 w-20-ns dn">
         <ul>
           <li>
@@ -29,7 +48,7 @@
     <section class="flex-ns flex-wrap justify-between w-100 w-80-nsTK v-top">
       {{ $paginator := .Paginate (.Pages | lang.Merge (where .Sites.First.RegularPages "Section" .Section)) -}}
       {{ range $paginator.Pages }}
-        {{ partial "boxes-section-summaries-with-image" (dict "context" . "classes" $interior_classes "fullcontent" false) }}
+      {{ partial "boxes-section-summaries" (dict "context" . "classes" $interior_classes "fullcontent" false) }}
       {{ end }}
     </section>
   </div>

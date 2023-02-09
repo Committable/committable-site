@@ -15,3 +15,8 @@
 }
 
 .committable-orange-color                         {color: #ffae00}
+
+.mainpage-width-limit {
+	max-width: 1200px;
+	margin: auto;
+}

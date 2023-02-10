@@ -9,7 +9,7 @@
     class="{{ $.classes_section | default "bg-primary-color-dark b--dark-gray bb bt ph5 pv4 w-100" }}">
     <div class="center mw9">
       <h3 class="b f3 mv0 black">Ecosystem Partners</h3>
-      <div class="flex-ns flex-wrap center justify-between pt3">
+      <div class="flex-ns flex-wrap center justify-between pt3 tc">
         {{ range .banners }}
           <div
             class="{{ $classes_box }} o-100"
@@ -21,11 +21,11 @@
               <a
                 href="{{ .link }}"
                 onclick="trackOutboundLink({{ printf "'%s', '%s'" $gtagID $url | safeJS }});"
-                class="w-100 grow pa3">
+                class="w-100 grow">
                 <img src="{{ .img }}" alt="{{ .name }}">
               </a>
             {{ else }}
-              <a href="{{ .link }}" class="w-100 grow pa3" style="">
+              <a href="{{ .link }}" class="w-100 grow" style="">
                 <img src="{{ .img }}" alt="{{ .name }}">
               </a>
             {{ end }}

@@ -20,7 +20,7 @@ features:
   - heading: Trusted Software Analysis
     image_path: /img/features/analysis-opaque.png
     tagline: Verifiable analysis of software and development processes.
-    copy: Be part of a community that ensures a fair and accountable tokenization process.
+    copy: Be part of a community that ensures an accountable tokenization process.
 
 ---
 

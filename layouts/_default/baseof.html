@@ -98,12 +98,17 @@
       {{ partial "gtag" . }}
     {{ end }}
 
+
+    <link rel="stylesheet" href="/custom.css">
+    <link rel="stylesheet" href="/styles/announcement.css">
+
   </head>
 
   <body
-    class="mainpage-width-limit ma0 sans-serif bg-white{{ with getenv "HUGO_ENV" }}
+    class="min-h-screen bg-white selection:bg-primary/10 selection:text-primary dark:bg-gray-900 {{ with getenv "HUGO_ENV" }}
       {{ . }}
     {{ end }}">
+
     {{ partial "hooks/after-body-start" . }}
     {{ block "nav" . }}{{ partial "site-nav.html" . }}{{ end }}
     {{ block "header" . }}{{ end }}
@@ -115,5 +120,6 @@
 
     {{ partial "hooks/before-body-end" . }}
 
+    <script src="/js/index.js"></script>
   </body>
 </html>

@@ -1,16 +1,27 @@
 {{ define "header" }}
 {{ partial "hero" . }}
-<link rel="stylesheet" href="/custom.css">
+
 {{ partial "boxes-small-news" . }}
 {{ end }}
 
 {{ define "main" }}
-<section class="w-100 ph4 ph5-ns mid-gray bg-white bb bt b--light-gray">
-  {{- partial "home-page-sections/walkthrough-video" . -}}
-  {{- partial "home-page-sections/walkthrough-steps" . -}}
+
+<section class="pt-32 sm:pt-40 md:pt-48">
+  {{- partial "home-page-sections/slogan" . -}}
+</section>
+<section class="mt-32">
+  <div class="mx-auto px-4 sm:px-12 xl:max-w-6xl xl:px-0">
+    <h2 class="text-3xl font-bold text-gray-800 dark:text-white md:text-3xl xl:text-4xl tc mb-8">
+      An introductory walkthrough of Committable
+    </h2>
+    <div class="space-y-6 md:flex lg:items-center lg:gap-6 lg:space-y-0">
+      {{- partial "home-page-sections/walkthrough-video" . -}}
+      {{- partial "home-page-sections/walkthrough-steps" . -}}
+    </div>
+  </div>
 </section>
 
-<section class="w-100 ph4 ph5-ns pv4 bg-light">
+<section class="mt-32">
   {{- partial "home-page-sections/features-icons" . -}}
 </section>
 
@@ -23,7 +34,7 @@
 <section class="w-100 ph4 ph5-ns pv4 pv6-ns mid-gray bg-accent-color-dark">
   {{- partial "home-page-sections/tweets" . -}} -->
 </section>
-<section class="w-100 ph4 ph5-ns pt4 pb5 mid-gray bg-white bb bt b--light-gray ">
+<section class="mt-32 b--light-gray dark:bg-gray-900">
   {{- partial "home-page-sections/open-source-involvement" . -}}
 </section>
 {{ end }}

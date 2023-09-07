@@ -7,7 +7,7 @@ import Link from 'next/link'
 // on whether or not a visitor is signed in.
 //
 // https://docs.clerk.dev/frontend/react/signedin-and-signedout
-import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
+// import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs'
 
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
@@ -74,7 +74,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                <SignedOut>
+                {/* <SignedOut>
                   <li className="border-t border-slate-300/40 pt-4">
                     <Link href="/sign-in">
                       <a className="block w-full">Sign in</a>
@@ -83,7 +83,7 @@ function MobileNavigation() {
                 </SignedOut>
                 <SignedIn>
                   <UserButton userProfileURL="/user" afterSignOutAll="/" afterSignOutOneUrl="/" />
-                </SignedIn>
+                </SignedIn> */}
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -131,16 +131,16 @@ export function Header() {
                 <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">Edit Profile</a>
               </Link>
             </li>
-            <SignedOut>
+            {/* <SignedOut>
               <li className="border-t border-slate-300/40 pt-4">
                 <Link href="/sign-in">
                   <a className="block w-full">Sign in</a>
                 </Link>
               </li>
-            </SignedOut>
-            <SignedIn>
+            </SignedOut> */}
+            {/* <SignedIn>
               <UserButton userProfileURL="/user" afterSignOutAll="/" afterSignOutOneUrl="/" />
-            </SignedIn>
+            </SignedIn> */}
             <li className="ml-auto md:ml-8">
               <ButtonLink href="/register" color="blue">
                 <span>

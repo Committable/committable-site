@@ -104,7 +104,7 @@ function Feature({ feature, isActive, className, ...props }) {
     >
       <div
         className={clsx('w-9 rounded-lg', {
-          'bg-blue-600': isActive,
+          'bg-amber-600': isActive,
           'bg-slate-500': !isActive,
         })}
       >
@@ -114,7 +114,7 @@ function Feature({ feature, isActive, className, ...props }) {
       </div>
       <h3
         className={clsx('mt-6 text-sm font-medium', {
-          'text-blue-600': isActive,
+          'text-amber-600': isActive,
           'text-slate-600': !isActive,
         })}
       >

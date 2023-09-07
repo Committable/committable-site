@@ -47,7 +47,7 @@ export default function Login() {
               <div className="pt-1">
                 <button
                   type="submit"
-                  className="w-full rounded-full border border-transparent bg-blue-600 py-2 px-4 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                  className="w-full rounded-full border border-transparent bg-amber-600 py-2 px-4 text-sm font-semibold text-white shadow-sm hover:bg-amber-500 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
                 >
                   Sign in <span aria-hidden="true">&rarr;</span>
                 </button>

@@ -59,7 +59,7 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-labelledby="features-title"
-      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-amber-600 pt-20 pb-28 sm:py-32"
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
         <Image
@@ -79,7 +79,7 @@ export function PrimaryFeatures() {
           >
             Everything you need to run your books.
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
+          <p className="mt-6 text-lg tracking-tight text-amber-100">
             Well everything you need if you aren’t that picky about minor
             details like tax compliance.
           </p>
@@ -111,9 +111,9 @@ export function PrimaryFeatures() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             {
-                              'text-blue-600 lg:text-white':
+                              'text-amber-600 lg:text-white':
                                 selectedIndex === featureIndex,
-                              'text-blue-100 hover:text-white lg:text-white':
+                              'text-amber-100 hover:text-white lg:text-white':
                                 selectedIndex !== featureIndex,
                             }
                           )}
@@ -125,7 +125,7 @@ export function PrimaryFeatures() {
                       <p
                         className={clsx('mt-2 hidden text-sm lg:block', {
                           'text-white': selectedIndex === featureIndex,
-                          'text-blue-100 group-hover:text-white':
+                          'text-amber-100 group-hover:text-white':
                             selectedIndex !== featureIndex,
                         })}
                       >
@@ -144,7 +144,7 @@ export function PrimaryFeatures() {
                         {feature.description}
                       </p>
                     </div>
-                    <div className="relative mt-10 aspect-[1085/730] w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-blue-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
+                    <div className="relative mt-10 aspect-[1085/730] w-[45rem] overflow-hidden rounded-xl bg-slate-50 shadow-xl shadow-amber-900/20 sm:w-auto lg:mt-0 lg:w-[67.8125rem]">
                       <Image
                         src={feature.image}
                         alt=""

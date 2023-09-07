@@ -11,7 +11,6 @@ import Link from 'next/link'
 
 import { Popover, Transition } from '@headlessui/react'
 import clsx from 'clsx'
-import { Search } from '@/components/Search'
 
 import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -97,7 +96,7 @@ export function Header() {
   return (
     <header className="py-10">
       <Container>
-        <nav className="relative z-50 text-sm">
+        <nav className="relative z-50 text-base">
           <ul className="flex items-center">
             <li>
               <Link href="#">
@@ -109,26 +108,32 @@ export function Header() {
             </li>
             <li className="ml-12 hidden md:block">
               <Link href="#features">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">Features</a>
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Features</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#testimonials">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">Testimonials</a>
+              <Link href="#technology">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Technology</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#pricing">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">Pricing</a>
+              <Link href="#partners">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Partners</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Search />
+              <Link href="#blogs">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Blogs</a>
+              </Link>
             </li>
-
             <li className="ml-6 hidden md:block">
-              <Link href="/user">
-                <a className="rounded-lg py-1 px-2 text-slate-700 hover:bg-slate-100 hover:text-slate-900">Edit Profile</a>
+              <Link href="#events">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Events</a>
+              </Link>
+            </li>
+            <li className="ml-6 hidden md:block">
+              <Link href="https://docs.committable.io">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Documentation</a>
               </Link>
             </li>
             {/* <SignedOut>
@@ -141,10 +146,10 @@ export function Header() {
             {/* <SignedIn>
               <UserButton userProfileURL="/user" afterSignOutAll="/" afterSignOutOneUrl="/" />
             </SignedIn> */}
-            <li className="ml-auto md:ml-8">
-              <ButtonLink href="/register" color="blue">
+            <li className="ml-auto md:ml-8 font-bold">
+              <ButtonLink href="https://app-test.committable.io/gallery" color="blue">
                 <span>
-                  Get started<span className="hidden lg:inline"> today</span>
+                  Launch<span className="hidden lg:inline"> App</span>
                 </span>
               </ButtonLink>
             </li>

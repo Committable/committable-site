@@ -4,36 +4,36 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import backgroundImage from '@/images/background-features-purple.webp'
+import screenshotConnect from '@/images/screenshots/connect.png'
+import screenshotAnalyze from '@/images/screenshots/analyze.png'
+import screenshotProfile from '@/images/screenshots/profile.png'
+import screenshotMarket from '@/images/screenshots/market.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Connect your ID',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "Login with your GitHub identity and your favorite web3.0 wallet. We'll take care of the rest.",
+    image: screenshotConnect,
   },
   {
-    title: 'Claim expenses',
+    title: 'Analyze your codebase',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "All of your commits are analyzed by our trust analysis kit. We'll tell you about your code from every aspect.",
+    image: screenshotAnalyze,
   },
   {
-    title: 'VAT handling',
+    title: 'View your profile',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "We will show everything about you contribution history, your skills, and your interests. All verified.",
+    image: screenshotProfile,
   },
   {
-    title: 'Reporting',
+    title: 'Developer Market',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
+      'Find a trusted collaborator or a wonderfule project. All in one place.',
+    image: screenshotMarket,
   },
 ]
 
@@ -77,11 +77,10 @@ export function PrimaryFeatures() {
             id="features-title"
             className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl"
           >
-            Everything you need to run your books.
+            Your code, Your contributions, Your identity in Web3.0
           </h2>
           <p className="mt-6 text-lg tracking-tight text-amber-100">
-            Well everything you need if you aren’t that picky about minor
-            details like tax compliance.
+            A trustworthy, decentralized, and open source profile protocol for developers.
           </p>
         </div>
         <Tab.Group

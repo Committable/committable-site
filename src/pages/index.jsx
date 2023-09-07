@@ -3,7 +3,7 @@ import Head from 'next/head'
 // import { withServerSideAuth } from '@clerk/nextjs/ssr'
 import React from 'react'
 import Link from 'next/link'
-import { CallToAction } from '@/components/CallToAction'
+import { Technology } from '@/components/Technology'
 import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -12,6 +12,9 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Partners } from '@/components/Partners'
+import { Partnerships } from '@/components/Partnerships'
+import EventsList from '@/components/Events'
 
 // export const getServerSideProps = withServerSideAuth()
 
@@ -34,8 +37,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
-        <meta name="description" content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited." />
+        <title>Committable -  Decentralized identity for developers</title>
+        <meta name="description" content="The decentralized identity for developers: contribute to Web3 with verifiable profiles." />
       </Head>
       <Header />
       {/* <SignedIn>
@@ -49,11 +52,14 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <SecondaryFeatures />
-        <CallToAction />
+        <Partners />
+        <Partnerships />
+        {/* <SecondaryFeatures /> */}
+        <Technology />
         <Testimonials />
-        <Pricing />
+        {/* <Pricing /> */}
         <Faqs />
+        <EventsList />
       </main>
       <Footer />
     </>

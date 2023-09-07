@@ -19,16 +19,37 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#testimonials">
+                <Link href="#technology">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Testimonials
+                    Technology
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#pricing">
+                <Link href="#partners">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Pricing
+                    Partners
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#blogs">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    Blogs
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#events">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    Events
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#https://docs.committable.io">
+                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
+                    Documentation
                   </a>
                 </Link>
               </li>
@@ -39,7 +60,7 @@ export function Footer() {
           <div className="flex space-x-6">
             <Link href="#">
               <a className="group">
-                <span className="sr-only">TaxPal on Twitter</span>
+                <span className="sr-only">Committable on Twitter</span>
                 <svg
                   aria-hidden="true"
                   className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
@@ -50,7 +71,7 @@ export function Footer() {
             </Link>
             <Link href="#">
               <a className="group">
-                <span className="sr-only">TaxPal on GitHub</span>
+                <span className="sr-only">Committable on GitHub</span>
                 <svg
                   aria-hidden="true"
                   className="h-6 w-6 fill-slate-500 group-hover:fill-slate-700"
@@ -61,7 +82,7 @@ export function Footer() {
             </Link>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} TaxPal. All rights
+            Copyright &copy; {new Date().getFullYear()} Committable. All rights
             reserved.
           </p>
         </div>

@@ -152,7 +152,7 @@ function PartnershipSteps() {
     <section
       id="partnership-steps"
       aria-labelledby="steps-title"
-      className="py-20 sm:py-32 lg:py-32"
+      className="pt-20 sm:pt-22 lg:pt-22"
     >
       <Container>
         <div className="mx-auto md:text-center">
@@ -195,7 +195,7 @@ export function Partnerships() {
     <section
       id="partnerships"
       aria-labelledby="secondary-features-title"
-      className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pt-20 pb-14 sm:pb-20 sm:pt-22 lg:pb-22"
     >
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">

@@ -11,9 +11,9 @@ export function Partners() {
     <section
       id="partners"
       aria-labelledby="secondary-features-title"
-      className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pt-10 pb-14 sm:pb-20 sm:pt-12 lg:pb-12"
     >
-      <Container className="pt-20 pb-16 text-center lg:pt-32">
+      <Container className="pt-10 pb-16 text-center lg:pt-12">
         <div className="">
           <h2 className="mx-auto max-w-7xl mb-10 font-display text-2xl text-base text-slate-900">
             Existing Partners

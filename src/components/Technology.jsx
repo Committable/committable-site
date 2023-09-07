@@ -14,8 +14,8 @@ export function Technology() {
         <Image
           src={backgroundImage}
           alt=""
-          width={2347}
-          height={1244}
+          // width={2347}
+          // height={1244}
           layout="fixed"
           unoptimized
         />

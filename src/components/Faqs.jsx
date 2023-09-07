@@ -6,7 +6,7 @@ import backgroundImage from '@/images/background-faqs.jpg'
 
 function OpenSourceResources() {
   return (
-    <div className="p-8 rounded-lg space-y-6">
+    <div className="p-8 rounded-lg space-y-6 max-w-7xl mx-auto">
       <p className="text-lg leading-7">
         Our document site{' '}
         <a 

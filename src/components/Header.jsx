@@ -52,13 +52,13 @@ function MobileNavigation() {
               leaveTo="opacity-0 scale-95"
             >
               <Popover.Panel as="ul" className="absolute inset-x-0 top-full mt-4 origin-top space-y-4 rounded-2xl bg-white p-6 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-                <li>
+                {/* <li>
                   <Link href="#features">
                     <a className="block w-full" onClick={() => close()}>
                       Features
                     </a>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="#technology">
                     <a className="block w-full" onClick={() => close()}>
@@ -76,17 +76,17 @@ function MobileNavigation() {
                 <li>
                   <Link href="#blogs">
                     <a className="block w-full" onClick={() => close()}>
-                      Events
+                      Blogs
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#blogs">
+                  <Link href="#events">
                     <a className="block w-full" onClick={() => close()}>
-                      Documentation
+                      Events
                     </a>
                   </Link>
-                </li>
+                </li>                
                 <li>
                   <Link href="https://docs.committable.io">
                     <a className="block w-full" onClick={() => close()}>
@@ -116,7 +116,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="fixed top-0 z-10 w-full bg-white">
       <Container>
         <nav className="relative z-50 text-base">
           <ul className="flex items-center">
@@ -129,9 +129,9 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-12 hidden md:block">
-              <Link href="#features">
+              {/* <Link href="#features">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Features</a>
-              </Link>
+              </Link> */}
             </li>
             <li className="ml-6 hidden md:block">
               <Link href="#technology">

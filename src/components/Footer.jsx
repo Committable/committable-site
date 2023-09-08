@@ -11,13 +11,13 @@ export function Footer() {
           <Logo className="mx-auto h-10 w-auto" />
           <nav className="mt-10 text-sm sm:block hidden" aria-label="quick links">
             <ul className="-my-1 flex justify-center space-x-6">
-              <li>
+              {/* <li>
                 <Link href="#features">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Features
                   </a>
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#technology">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">

@@ -160,11 +160,11 @@ export function Testimonials() {
           id="blogs"
           className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
         >
-          Our thoughts
+          Learn more about our protocol, our research, our case studies and more.
         </h2>
-        <div className="mt-4 text-lg tracking-tight text-slate-700">
+        {/* <div className="mt-4 text-lg tracking-tight text-slate-700">
           Open Source, Web3.0, Committable and <RainbowText>Everything.</RainbowText>
-        </div>
+        </div> */}
       </div>
       <ul className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-6 sm:gap-8 lg:mt-20 lg:max-w-none lg:grid-cols-3">
         {articles.map((column, columnIndex) => (

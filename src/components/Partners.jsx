@@ -15,8 +15,8 @@ export function Partners() {
     >
       <Container className="pt-10 pb-16 text-center lg:pt-12">
         <div className="">
-          <h2 className="mx-auto max-w-7xl mb-10 font-display text-2xl text-base text-slate-900">
-            Existing Partners
+          <h2 className="mb-10 font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+            Our Partners
           </h2>
 
           <p className="mx-auto max-w-7xl text-left mb-5 font-display text-base text-slate-900">

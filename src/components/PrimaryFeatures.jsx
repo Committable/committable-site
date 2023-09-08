@@ -59,9 +59,9 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-labelledby="features-title"
-      className="relative overflow-hidden bg-amber-600 pt-20 pb-28 sm:py-32"
+      className="relative overflow-hidden bg-white pt-20 pb-28 sm:py-32"
     >
-      <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
+      {/* <div className="absolute top-1/2 left-1/2 -translate-x-[44%] -translate-y-[42%]">
         <Image
           src={backgroundImage}
           alt=""
@@ -70,16 +70,16 @@ export function PrimaryFeatures() {
           layout="fixed"
           unoptimized
         />
-      </div>
+      </div> */}
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2
             id="features-title"
-            className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl"
+            className="font-display text-3xl tracking-tight text-black sm:text-4xl md:text-5xl"
           >
             Your code, Your contributions, Your identity in Web3.0
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-amber-100">
+          <p className="mt-6 text-2xl tracking-tight text-amber-600">
             A trustworthy, decentralized, and open source profile protocol for developers.
           </p>
         </div>
@@ -98,7 +98,7 @@ export function PrimaryFeatures() {
                       className={clsx(
                         'group relative rounded-full py-1 px-4 lg:rounded-r-none lg:rounded-l-xl lg:p-6',
                         {
-                          'bg-white lg:bg-white/10 lg:ring-1 lg:ring-inset lg:ring-white/10':
+                          'bg-white lg:bg-amber-600/10 lg:ring-1 lg:ring-inset lg:ring-white/10':
                             selectedIndex === featureIndex,
                           'hover:bg-white/10 lg:hover:bg-white/5':
                             selectedIndex !== featureIndex,
@@ -110,9 +110,9 @@ export function PrimaryFeatures() {
                           className={clsx(
                             'font-display text-lg [&:not(:focus-visible)]:focus:outline-none',
                             {
-                              'text-amber-600 lg:text-white':
+                              'text-amber-600 lg:text-black':
                                 selectedIndex === featureIndex,
-                              'text-amber-100 hover:text-white lg:text-white':
+                              'text-amber-600 hover:text-black lg:text-black':
                                 selectedIndex !== featureIndex,
                             }
                           )}
@@ -123,8 +123,8 @@ export function PrimaryFeatures() {
                       </h3>
                       <p
                         className={clsx('mt-2 hidden text-sm lg:block', {
-                          'text-white': selectedIndex === featureIndex,
-                          'text-amber-100 group-hover:text-white':
+                          'text-black': selectedIndex === featureIndex,
+                          'text-amber-600 group-hover:text-black':
                             selectedIndex !== featureIndex,
                         })}
                       >
@@ -139,7 +139,7 @@ export function PrimaryFeatures() {
                   <Tab.Panel key={feature.title} unmount={false}>
                     <div className="relative sm:px-6 lg:hidden">
                       <div className="absolute -inset-x-4 -top-[6.5rem] -bottom-[4.25rem] bg-white/10 ring-1 ring-inset ring-white/10 sm:inset-x-0 sm:rounded-t-xl" />
-                      <p className="relative mx-auto max-w-2xl text-base text-white sm:text-center">
+                      <p className="relative mx-auto max-w-2xl text-base text-black sm:text-center">
                         {feature.description}
                       </p>
                     </div>

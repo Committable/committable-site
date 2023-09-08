@@ -60,7 +60,7 @@ const eventsData = [
 
 const Event = ({ event }) => (
     <div className="mb-6 text-left">
-        <h3 className="text-xl font-bold">{event.title}</h3>
+        <h3 className="text-xl font-bold">➤ {event.title}</h3>
         <p className="text-sm mb-2">{event.date} | {event.location}</p>
         <p className="text-gray-600">{event.description}</p>
     </div>

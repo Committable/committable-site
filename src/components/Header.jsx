@@ -60,19 +60,41 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="#testimonials">
+                  <Link href="#technology">
                     <a className="block w-full" onClick={() => close()}>
-                      Testimonials
+                      Technology
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#pricing">
+                  <Link href="#partners">
                     <a className="block w-full" onClick={() => close()}>
-                      Pricing
+                      Partners
                     </a>
                   </Link>
                 </li>
+                <li>
+                  <Link href="#blogs">
+                    <a className="block w-full" onClick={() => close()}>
+                      Events
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#blogs">
+                    <a className="block w-full" onClick={() => close()}>
+                      Documentation
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://docs.committable.io">
+                    <a className="block w-full" onClick={() => close()}>
+                      Documentation
+                    </a>
+                  </Link>
+                </li>
+                
                 {/* <SignedOut>
                   <li className="border-t border-slate-300/40 pt-4">
                     <Link href="/sign-in">

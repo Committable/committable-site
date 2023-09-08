@@ -43,9 +43,6 @@ export function Partners() {
                     unoptimized
                   />
                 </li>
-                {/* <li className="flex">
-                <Image src={logoTuple} alt="Tuple" layout="fixed" unoptimized />
-              </li> */}
                 <li className="flex">
                   <Image
                     src={logoOxford}
@@ -54,10 +51,6 @@ export function Partners() {
                     unoptimized
                   />
                 </li>
-              </ul>
-            </li>
-            <li>
-              <ul className="flex flex-col items-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-12">
                 <li className="flex">
                   <Image
                     src={logoDCC}
@@ -66,24 +59,13 @@ export function Partners() {
                     unoptimized
                   />
                 </li>
-                {/* <li className="flex">
-                <Image
-                  src={logoDCC}
-                  alt="Laravel"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li>
-              <li className="flex">
-                <Image
-                  src={logoStatamic}
-                  alt="Statamic"
-                  layout="fixed"
-                  unoptimized
-                />
-              </li> */}
               </ul>
             </li>
+            {/* <li>
+              <ul className="flex flex-col items-center space-y-8 sm:flex-row sm:space-y-0 sm:space-x-12">
+                
+              </ul>
+            </li> */}
           </ul>
         </div>
       </Container>

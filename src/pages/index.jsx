@@ -52,13 +52,11 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <Partners />
+        <Technology />
         <Partnerships />
         {/* <SecondaryFeatures /> */}
-        <Technology />
         <Testimonials />
         {/* <Pricing /> */}
-        <Faqs />
         <EventsList />
       </main>
       <Footer />

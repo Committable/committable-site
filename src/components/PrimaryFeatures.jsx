@@ -18,21 +18,21 @@ const features = [
     image: screenshotConnect,
   },
   {
-    title: 'Analyze your codebase',
+    title: 'Analyze your code',
     description:
       "All of your commits are analyzed by our trust analysis kit. We'll tell you about your code from every aspect.",
     image: screenshotAnalyze,
   },
   {
-    title: 'View your profile',
+    title: 'Share your profile',
     description:
-      "We will show everything about you contribution history, your skills, and your interests. All verified.",
+      "Share your verified profile, which includes your contribution history, your skillset, your interests, and more.",
     image: screenshotProfile,
   },
   {
-    title: 'Developer Market',
+    title: 'Collaborate on projects',
     description:
-      'Find a trusted collaborator or a wonderfule project. All in one place.',
+      'Find a trusted collaborator for an existing or new project, all in one place.',
     image: screenshotMarket,
   },
 ]
@@ -77,10 +77,10 @@ export function PrimaryFeatures() {
             id="features-title"
             className="font-display text-3xl tracking-tight text-black sm:text-4xl md:text-5xl"
           >
-            Your code, Your contributions, Your identity in Web3.0
+            What you can do with Committable?
           </h2>
-          <p className="mt-6 text-2xl tracking-tight text-amber-600">
-            A trustworthy, decentralized, and open source profile protocol for developers.
+          <p className="mt-6 text-2xl tracking-tight text-black">
+          Our current protocol (v.1) features four core functions on the Sepolia testnet, to allow developers and other community stakeholders to showcase or support open-source contributions.
           </p>
         </div>
         <Tab.Group

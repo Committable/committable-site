@@ -69,7 +69,7 @@ function MobileNavigation() {
                 <li>
                   <Link href="#partners">
                     <a className="block w-full" onClick={() => close()}>
-                      Partners
+                    Partnership
                     </a>
                   </Link>
                 </li>
@@ -140,7 +140,7 @@ export function Header() {
             </li>
             <li className="ml-6 hidden md:block">
               <Link href="#partners">
-                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Partners</a>
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Partnership</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">

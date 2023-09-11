@@ -8,7 +8,7 @@ export function Partnerships() {
     <section
       id="partnership"
       aria-labelledby="secondary-features-title"
-      className="pt-20 pb-14 sm:pb-20 sm:pt-22 lg:pb-22"
+      className="pt-40 sm:pt-22"
     >
       <Container>
         <div className="max-w-7xl text-left">

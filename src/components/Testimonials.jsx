@@ -156,10 +156,9 @@ const RainbowText = ({ children }) => {
 export function Testimonials() {
   return (
     <Container>
-      <div className="mx-auto max-w-2xl md:text-center">
-        <h2
-          id="blogs"
-          className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
+      <div id="blogs"></div>
+      <div className="mx-auto pt-40 max-w-5xl md:text-center">
+        <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
         >
           Learn more about our protocol, our research, our case studies and more.
         </h2>

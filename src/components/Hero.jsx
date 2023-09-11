@@ -7,7 +7,7 @@ import coverImage from '@/images/cover.png'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
+    <Container className="pt-40 text-center lg:pt-32">
       <div className="flex flex-col lg:flex-row w-full py-8">
         {/* Left Side */}
         <div className="w-full lg:w-1/2 p-8">

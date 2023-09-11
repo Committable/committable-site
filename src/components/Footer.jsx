@@ -26,7 +26,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="#partners">
+                <Link href="#partnership">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Partnership
                   </a>
@@ -63,7 +63,7 @@ export function Footer() {
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex space-x-6">
             <Link href="#">
-              <a className="group">
+              <a className="group" href='https://twitter.com/committable_io' target="_blank" rel="noopener noreferrer">
                 <span className="sr-only">Committable on Twitter</span>
                 <svg
                   aria-hidden="true"
@@ -74,7 +74,7 @@ export function Footer() {
               </a>
             </Link>
             <Link href="#">
-              <a className="group">
+              <a className="group" href='https://github.com/Committable' target="_blank" rel="noopener noreferrer">
                 <span className="sr-only">Committable on GitHub</span>
                 <svg
                   aria-hidden="true"

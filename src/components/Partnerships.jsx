@@ -6,12 +6,12 @@ import { Container } from '@/components/Container'
 export function Partnerships() {
   return (
     <section
-      id="partnerships"
+      id="partnership"
       aria-labelledby="secondary-features-title"
       className="pt-20 pb-14 sm:pb-20 sm:pt-22 lg:pb-22"
     >
       <Container>
-        <div className="mx-auto max-w-2xl text-left">
+        <div className="max-w-7xl text-left">
           <h2
             id="secondary-features-title"
             className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"

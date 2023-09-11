@@ -8,7 +8,7 @@ export function Technology() {
   return (
     <section
       id="technology"
-      className="relative overflow-hidden bg-white py-32"
+      className="relative overflow-hidden bg-white pt-32"
     >
       {/* <div className="absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]">
         <Image

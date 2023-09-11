@@ -14,7 +14,7 @@ const features = [
   {
     title: 'Connect your ID',
     description:
-      "Login with your GitHub identity and your favorite web3.0 wallet. We'll take care of the rest.",
+      "Login with your GitHub identity and your web3.0 wallet.",
     image: screenshotConnect,
   },
   {

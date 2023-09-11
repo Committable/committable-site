@@ -69,7 +69,7 @@ function MobileNavigation() {
                 <li>
                   <Link href="#partners">
                     <a className="block w-full" onClick={() => close()}>
-                    Partnership
+                      Partnership
                     </a>
                   </Link>
                 </li>
@@ -86,15 +86,19 @@ function MobileNavigation() {
                       Events
                     </a>
                   </Link>
-                </li>                
-                <li>
-                  <Link href="https://docs.committable.io">
-                    <a className="block w-full" onClick={() => close()}>
-                      Documentation
-                    </a>
-                  </Link>
                 </li>
-                
+                <li>
+                  <a
+                    href="https://docs.committable.io"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block w-full"
+                  >
+                    Documentation
+                  </a>
+
+                </li>
+
                 {/* <SignedOut>
                   <li className="border-t border-slate-300/40 pt-4">
                     <Link href="/sign-in">
@@ -154,9 +158,15 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="https://docs.committable.io">
-                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Documentation</a>
-              </Link>
+              <a
+                href="https://docs.committable.io"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+              >
+                Documentation
+              </a>
+
             </li>
             {/* <SignedOut>
               <li className="border-t border-slate-300/40 pt-4">
@@ -169,7 +179,7 @@ export function Header() {
               <UserButton userProfileURL="/user" afterSignOutAll="/" afterSignOutOneUrl="/" />
             </SignedIn> */}
             <li className="ml-auto md:ml-8 font-bold">
-              <ButtonLink href="https://app-test.committable.io/gallery" color="blue">
+              <ButtonLink href="https://app-test.committable.io/gallery" color="blue" target="_blank" rel="noopener noreferrer">
                 <span>
                   Launch<span className="hidden lg:inline"> App</span>
                 </span>

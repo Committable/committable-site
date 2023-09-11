@@ -47,11 +47,15 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="https://docs.committable.io">
-                  <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
-                    Documentation
-                  </a>
-                </Link>
+                <a
+                  href="https://docs.committable.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900"
+                >
+                  Documentation
+                </a>
+
               </li>
             </ul>
           </nav>

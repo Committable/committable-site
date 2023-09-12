@@ -60,28 +60,28 @@ function MobileNavigation() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link href="#technology">
+                  <Link href="/technology">
                     <a className="block w-full" onClick={() => close()}>
                       Technology
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#partnership">
+                  <Link href="/partnership">
                     <a className="block w-full" onClick={() => close()}>
                       Partnership
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#blogs">
+                  <Link href="/blogs">
                     <a className="block w-full" onClick={() => close()}>
                       Blogs
                     </a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="#events">
+                  <Link href="/events">
                     <a className="block w-full" onClick={() => close()}>
                       Events
                     </a>
@@ -125,7 +125,7 @@ export function Header() {
         <nav className="relative z-50 text-base">
           <ul className="flex items-center">
             <li>
-              <Link href="#">
+              <Link href="/">
                 <a>
                   <span className="sr-only">Home</span>
                   <Logo className="h-10 w-auto" />
@@ -138,22 +138,22 @@ export function Header() {
               </Link> */}
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#technology">
+              <Link href="/technology">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Technology</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#partnership">
+              <Link href="/partnership">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Partnership</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#blogs">
+              <Link href="/blogs">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Blogs</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="#events">
+              <Link href="/events">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Events</a>
               </Link>
             </li>

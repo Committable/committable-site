@@ -19,28 +19,28 @@ export function Footer() {
                 </Link>
               </li> */}
               <li>
-                <Link href="#technology">
+                <Link href="/technology">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Technology
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#partnership">
+                <Link href="/partnership">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Partnership
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#blogs">
+                <Link href="/blogs">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Blogs
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#events">
+                <Link href="/events">
                   <a className="rounded-lg px-2 py-1 text-slate-700 hover:bg-slate-100 hover:text-slate-900">
                     Events
                   </a>
@@ -62,7 +62,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col items-center border-t border-slate-400/10 py-10 sm:flex-row-reverse sm:justify-between">
           <div className="flex space-x-6">
-            <Link href="#">
+            <Link href="/">
               <a className="group" href='https://twitter.com/committable_io' target="_blank" rel="noopener noreferrer">
                 <span className="sr-only">Committable on Twitter</span>
                 <svg
@@ -73,7 +73,7 @@ export function Footer() {
                 </svg>
               </a>
             </Link>
-            <Link href="#">
+            <Link href="/">
               <a className="group" href='https://github.com/Committable' target="_blank" rel="noopener noreferrer">
                 <span className="sr-only">Committable on GitHub</span>
                 <svg

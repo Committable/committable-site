@@ -87,7 +87,7 @@ function MobileNavigation() {
                     </a>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://docs.committable.io"
                     target="_blank"
@@ -97,7 +97,7 @@ function MobileNavigation() {
                     Documentation
                   </a>
 
-                </li>
+                </li> */}
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>
@@ -111,8 +111,8 @@ export function Header() {
   return (
     <header className="fixed top-0 z-10 w-full bg-white">
       <Container>
-        <nav className="relative z-50 text-base">
-          <ul className="flex items-center">
+        <nav className="relative z-50 text-base items-center flex justify-between">
+          <ul className="items-center">
             <li>
               <Link href="/">
                 <a>
@@ -121,6 +121,8 @@ export function Header() {
                 </a>
               </Link>
             </li>
+          </ul>
+          <ul className="relative z-50 text-base items-center flex">
             <li className="ml-12 hidden md:block">
               {/* <Link href="#features">
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Features</a>
@@ -146,7 +148,7 @@ export function Header() {
                 <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Events</a>
               </Link>
             </li>
-            <li className="ml-6 hidden md:block">
+            {/* <li className="ml-6 hidden md:block">
               <a
                 href="https://docs.committable.io"
                 target="_blank"
@@ -156,7 +158,7 @@ export function Header() {
                 Documentation
               </a>
 
-            </li>
+            </li> */}
             {/* <SignedOut>
               <li className="border-t border-slate-300/40 pt-4">
                 <Link href="/sign-in">

@@ -46,7 +46,7 @@ export function Footer() {
                   </a>
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="https://docs.committable.io"
                   target="_blank"
@@ -56,7 +56,7 @@ export function Footer() {
                   Documentation
                 </a>
 
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

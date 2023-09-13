@@ -98,17 +98,6 @@ function MobileNavigation() {
                   </a>
 
                 </li>
-
-                {/* <SignedOut>
-                  <li className="border-t border-slate-300/40 pt-4">
-                    <Link href="/sign-in">
-                      <a className="block w-full">Sign in</a>
-                    </Link>
-                  </li>
-                </SignedOut>
-                <SignedIn>
-                  <UserButton userProfileURL="/user" afterSignOutAll="/" afterSignOutOneUrl="/" />
-                </SignedIn> */}
               </Popover.Panel>
             </Transition.Child>
           </Transition.Root>

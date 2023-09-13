@@ -51,13 +51,6 @@ export default function Home() {
       </SignedOut> */}
       <main>
         <Hero />
-        <PrimaryFeatures />
-        <Technology />
-        <Partnerships />
-        {/* <SecondaryFeatures /> */}
-        <Testimonials />
-        {/* <Pricing /> */}
-        <EventsList />
       </main>
       <Footer />
     </>

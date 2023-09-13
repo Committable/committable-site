@@ -74,9 +74,9 @@ function MobileNavigation() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/blogs">
+                  <Link href="/faqs">
                     <a className="block w-full" onClick={() => close()}>
-                      Blogs
+                      FAQ
                     </a>
                   </Link>
                 </li>
@@ -137,8 +137,8 @@ export function Header() {
               </Link>
             </li>
             <li className="ml-6 hidden md:block">
-              <Link href="/blogs">
-                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">Blogs</a>
+              <Link href="/faqs">
+                <a className="rounded-lg py-1 px-2 font-bold text-slate-700 hover:bg-slate-100 hover:text-slate-900">FAQ</a>
               </Link>
             </li>
             <li className="ml-6 hidden md:block">

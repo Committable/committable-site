@@ -156,6 +156,8 @@ const RainbowText = ({ children }) => {
 export function Testimonials() {
   return (
     <Container>
+      <Faqs />
+      
       <div id="blogs"></div>
       <div className="mx-auto pt-40 max-w-5xl md:text-center">
         <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl"
@@ -209,7 +211,6 @@ export function Testimonials() {
           </li>
         ))}
       </ul>
-      <Faqs />
     </Container>
   )
 }

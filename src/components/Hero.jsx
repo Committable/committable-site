@@ -4,6 +4,7 @@ import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Partners } from './Partners'
 import coverImage from '@/images/cover.png'
+import { PrimaryFeatures } from './PrimaryFeatures'
 
 export function Hero() {
   return (

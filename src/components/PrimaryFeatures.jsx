@@ -20,7 +20,7 @@ const features = [
   {
     title: 'Analyze your code',
     description:
-      "All of your commits are analyzed by our trust analysis kit. We'll tell you about your code from every aspect.",
+      "All of your commits are analyzed by our trust analysis kit.",
     image: screenshotAnalyze,
   },
   {
@@ -72,20 +72,21 @@ export function PrimaryFeatures() {
         />
       </div> */}
       <Container className="relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2
-            id="features-title"
-            className="font-display text-3xl tracking-tight text-black sm:text-4xl md:text-5xl"
-          >
-            What you can do with Committable?
-          </h2>
-          <p className="mt-6 text-2xl tracking-tight text-black">
-          Our current protocol (v.1) features four core functions on the Sepolia testnet, to allow developers and other community stakeholders to showcase or support open-source contributions.
-          </p>
+        <div className="pt-10 pb-16 text-left lg:pt-12 flex justify-between">
+          <div className="w-full text-4xl lg:w-4/12">
+            Our Core Functionalities
+          </div>
+          <div className="w-full lg:w-8/12">
+            <p className="mx-auto max-w-7xl mb-5 font-display text-base text-slate-900">
+              Our current protocol features four initial core functions on the Sepolia testnet, to allow developers and other community stakeholders to showcase or support open-source contributions.
+
+              These functions, connecting via GitHub, analyzing via minting a COMMIT, collaborating via sponsoring a pull-request and sharing a profile, will serve as a pillar to our future tokeneconomics.
+            </p>
+          </div>
         </div>
         <Tab.Group
           as="div"
-          className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0"
+          className="mt-16 grid grid-cols-1 items-center gap-y-2 pt-10 sm:gap-y-6 md:mt-20 lg:grid-cols-12 lg:pt-0 text-left"
           vertical={tabOrientation === 'vertical'}
         >
           {({ selectedIndex }) => (

@@ -15,7 +15,7 @@ export function Partners() {
       className="pt-10 pb-14 sm:pb-20 sm:pt-12 lg:pb-12"
     >
       <Container className="pt-10 pb-16 text-center lg:pt-12">
-        <div className="w-full flex justify-between">
+        <div className="w-full flex flex-wrap justify-between">
           <div className="w-full text-4xl text-left lg:w-4/12">
             Innovating the Future of Web3
           </div>

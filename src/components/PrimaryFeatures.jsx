@@ -72,7 +72,7 @@ export function PrimaryFeatures() {
         />
       </div> */}
       <Container className="relative">
-        <div className="pt-10 pb-16 text-left lg:pt-12 flex justify-between">
+        <div className="pt-10 pb-16 text-left lg:pt-12 flex flex-wrap justify-between">
           <div className="w-full text-4xl lg:w-4/12">
             Our Core Functionalities
           </div>

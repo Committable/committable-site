@@ -4,7 +4,14 @@ import { ButtonLink } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Partners } from './Partners'
 import coverImage from '@/images/cover.png'
-import { PrimaryFeatures } from './PrimaryFeatures'
+import YouTube from 'react-youtube';
+
+function VideoPlayer({ videoId }) {
+  return (
+    <YouTube videoId={videoId} />
+  );
+}
+
 
 export function Hero() {
   return (
@@ -72,9 +79,11 @@ export function Hero() {
           <Image src={coverImage} alt="cover" />
         </div>
       </div>
-
-      <div className="mt-10 mx-auto max-w-7xl font-display text-large font-medium tracking-tight text-slate-900 sm:text-xl">
+      <div className="mt-10 mx-auto max-w-4xl font-display text-large font-medium tracking-tight text-slate-900 sm:text-xl">
         Committable aims at creating a novel ecosystem for open-source software where all development contributions are verifiable and identifiable by the community.
+      </div>
+      <div className="flex justify-center mt-10">
+        <VideoPlayer videoId="tADs0Z23jcE" />
       </div>
       <Partners />
     </Container>
